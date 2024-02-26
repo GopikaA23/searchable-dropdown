@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+// import "./App.css";
+// import SearchableDropdown from "./SearchDropdown";
+
+// function App() {
+//   const options = [
+//     "Ruby",
+//     "React",
+//     "Java",
+//     "Python",
+//     "Javascript",
+//     "Typescript",
+//     "SQL",
+//     "C",
+//     "C++",
+//     "Kotlin",
+//     "HTML",
+//     "CSS",
+//   ];
+
+//   return (
+//     <div className="App">
+//       <SearchableDropdown options={options} />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import SearchableDropdown from "./Searchable-Dropdown";
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <SearchableDropdown />
+    </div >
   );
 }
 

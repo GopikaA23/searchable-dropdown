@@ -1,0 +1,25 @@
+.button:hover {
+  background-color: darkgray;
+}
+
+.items {
+  display: flex;
+  /* justify-content: "center"; */
+  /* align-items: center; */
+  background-color: aliceblue;
+  padding: 1px;
+}
+
+.items:hover {
+  background-color: rgb(225, 225, 232);
+}
+
+.dropdown-container {
+  border: 2px solid black;
+  width: fit-content;
+  margin-left: 100px;
+}
+
+.search-box {
+  width: 220px;
+}
